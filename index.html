@@ -6,7 +6,7 @@ title: EFZ1602 作业中心
 <div id="wrapper-post"> 
 	  {% for post in paginator.posts %}    
       <ul class="posts">
-        <li><!--<span>{{ post.date | date_to_string }}</span>--><h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2></li>
+        <li><!--<span>{{ post.date | date_to_string }}</span>--><h2 class="post-title" align="middle"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2></li>
         <hr>
       </ul>
       {% endfor %}
