@@ -3,7 +3,7 @@ markdown: redcarpet
 pygments: true
 timezone: Asia/Shanghai
 permalink: /:title.html
-baseurl: /
+baseurl: /./
 url: http://efz1602.github.io
 paginate: 5
 paginate_path: 'page:num'
