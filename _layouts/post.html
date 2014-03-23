@@ -38,11 +38,11 @@
 
 	    	<ul class="nav">
 	    		{% if page.previous.url %} 
-	    		<li><a href="{{ site.baseurl }}{{page.previous.url}}">&laquo; Previous post</a></li>
+	    		<li><a href="{{ site.baseurl }}{{page.previous.url}}">&laquo; 上一篇</a></li>
 	   			{% endif %} 
-	   			<li><a href="{{ site.baseurl }}">Home</a></li>
+	   			<li><a href="{{ site.baseurl }}">返回主页</a></li>
 	   			{% if page.next.url %} 
-	   			<li><a href="{{ site.baseurl }}{{page.next.url}}">Next post &raquo;</a></li>
+	   			<li><a href="{{ site.baseurl }}{{page.next.url}}">下一篇 &raquo;</a></li>
 	   			{% endif %} 
 	   		</ul>
 
