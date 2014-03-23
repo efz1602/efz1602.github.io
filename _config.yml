@@ -1,1 +1,9 @@
-baseurl: /
+name: EFZ1602 - Homework Lists
+markdown: redcarpet
+pygments: true
+timezone: Asia/Shanghai
+permalink: /:title.html
+baseurl: /blog-jekyll/
+url: http://efz1602.github.io
+paginate: 5
+paginate_path: 'page:num'
