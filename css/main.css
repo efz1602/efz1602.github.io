@@ -16,13 +16,12 @@ a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transpare
 * {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-family: 微软雅黑;
 }
 
 body {
   background-color: #FFF;
   color: #494949;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', 微软雅黑, serif;
   font-size: 16px;
   text-align: center;
 }
