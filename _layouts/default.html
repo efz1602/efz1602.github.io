@@ -40,25 +40,6 @@
 
           {{ content }}
 
-          <div class="pagination">
-            {% if paginator.previous_page %}
-              {% if paginator.previous_page == 1 %}
-              <a href="/" class="previous">上一页</a>
-              {% else %}
-              <a href="/page{{ paginator.previous_page_path }}" class="previous">上一页</a>
-              {% endif %}
-            {% endif %}
-
-            <span class="page_number ">第{{ paginator.page }}页，共{{ paginator.total_pages }}页</span>
-            
-            {% if paginator.next_page %}
-              <br>
-              <a href="/page{{ paginator.next_page_path }}" class="next">下一页</a>
-              {% else %}
-              <span class="next ">下一页</span>
-            {% endif %}
-          </div>
-
           <hr>
 
           {% include footer.html %}
