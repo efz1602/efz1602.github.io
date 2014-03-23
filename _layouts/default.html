@@ -49,12 +49,12 @@
               {% endif %}
             {% endif %}
 
-            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            <span class="page_number ">第{{ paginator.page }}页，共{{ paginator.total_pages }}页</span>
             
             {% if paginator.next_page %}
-              <a href="/page{{ paginator.next_page_path }}" class="next">Next</a>
+              <a href="/page{{ paginator.next_page_path }}" class="next">下一页</a>
               {% else %}
-              <span class="next ">Next</span>
+              <span class="next ">下一页</span>
             {% endif %}
           </div>
 

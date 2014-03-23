@@ -6,4 +6,4 @@ permalink: /:title.html
 baseurl: /./
 url: http://efz1602.github.io
 paginate: 10
-paginate_path: '第num页'
+paginate_path: 'Page:num'
