@@ -21,13 +21,13 @@ date:   2014-04-13
       <td></td>
       <td></td>
       <td>地理</td>
-      <td>政治</td>
+      <td>历史</td>
    </tr>
    <tr>
       <td>下午</td>
       <td>物理</td>
       <td>化学</td>
-      <td></td>
+      <td>政治</td>
    </tr>
    <tr>
       <td></td>
