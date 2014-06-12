@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "6月12日作业清单"
+title:  "6.12"
 date:   2014-06-12
 ---
 
