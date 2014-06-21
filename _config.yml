@@ -1,6 +1,24 @@
-name: 作业中心
-markdown: redcarpet
-timezone: Asia/Shanghai
-permalink: /:title.html
-baseurl: /./
-url: http://efz1602.github.io
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            HOMEWORK CENTER
+tagline:          'Homework Center of EFZ1602'
+description:      'Homework Center made by Kaicheng Yan.'
+url:              http://efz1602.net
+
+author:
+  name:           'Kaicheng Yan'
+  url:            
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/hyde
