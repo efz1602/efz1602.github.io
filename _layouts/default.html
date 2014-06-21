@@ -1,60 +1,64 @@
 <!DOCTYPE html>
-<html id="J-html" class="">
-<head>
-     <!--
-     **
-     * Author:         掌心
-     * Contact:        zhanxin.info@gmail.com
-     * Theme Name:     iLotus
-     **
-    -->
-    <meta charset="UTF-8" />
-    <title>
-        {% if page.title %}
-            {{ page.title }}
-        {% else %}
-            {{ site.title }}
-        {% endif %}
-    </title>
-    <meta name="generator" content="Jekyll" />
-    <meta name="author" content="{{ site.author.name }}" />
-    <meta name="description" content="{{ page.description }}" />
-    <meta name="keywords" content="{{ page.keywords | join: ',' }}" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/static/style.css" />
-    <!--[if lt IE 9]>
-    <script src="{{ site.url }}/static/js/html5.js" type="text/javascript"></script>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <title>{{ site.name }} - {{ site.description }}</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta http-equiv="content-language" content="en-gb" />
+      <meta name="description" content="Fluid, responsive blog theme for Jekyll.">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css" />
+      <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <script src="{{ site.url }}/static/js/jquery.js" type="text/javascript"></script>
-</head>
-<body itemscope itemtype="http://schema.org/WebPage" class="home blog lotus index">
-    <nav class="lotus-nav">
-        <ul>
-            {% for link in site.nav %}
-            {% assign active = nil %}
-            {% assign homeClass = nil %}
-            {% if page.url == link.url%}
-              {% assign active = 'current' %}
-            {% endif %}
-            {% if link.class == 'home' %}
-                {% assign homeClass = 'home ' %}
-            {% endif %}
-            <li class="{{ homeClass }}{{ active }}">
-                <a href="{{ link.url }}" rel="bookmark" title="{{link.text}}">
-                    <i class="{{ link.icon }}"></i>
-                </a>
-                {{ indicator }}
-            </li>
-            {% endfor %}
-        </ul>
-    </nav>
 
-    {{ content }}
+    <div id="off-canvas">
+      <div id="avatar">
+        <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Profile Picture" title="wow, very face, such photograph, wow">
+      </div>
+      <div id="bio">
+          <h1>Hi, I'm {{ site.author }}.</h1>
+          <p>I'm a developer, living in Paris, France and this is my personal blog. I share things on <a href="">Github</a>, flex my design muscles on <a href="">Dribbble</a>, share stupid thoughts on <a href="">Twitter</a>. Shoot me an <a href="mailto:">email</a> if you'd like to be in touch.</p>
+      </div>
+    </div>
 
-<footer class="lotus-footer">
-	<p>Copyright © 2010–2014 {{ site.title }} All rights reserved. Design by <a href="http://www.zhanxin.info" target="_blank">zhanxin</a>.</p>
-</footer>
-<script src="{{ site.url }}/static/js/jquery.scrollTo.js" type="text/javascript"></script>
-<script src="{{ site.url }}/static/js/iLotus.js" type="text/javascript"></script>
-</body>
+    <header>
+      <div class="h-wrap">
+        <h1 class="title"><a href="{{ site.baseurl }}" title="Back to Homepage">{{ site.name }}</a></h1>
+        <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
+    </footer>
+
+    <script src="{{ site.baseurl }}/js/main.js"></script>
+    {% comment %} Google Analytics {% endcomment %}
+    {% if site.ga_tracking_id and site.ga_domain %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.ga_tracking_id }}', '{{ site.ga_domain }}');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+  </body>
 </html>
