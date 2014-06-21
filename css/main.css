@@ -18,7 +18,6 @@ License: MIT License http://opensource.org/licenses/MIT
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif, 'Microsoft Yahei', 'Microsoft Jhenghei';
 }
 
 /* General */
@@ -28,8 +27,7 @@ html, body { width: 100%; height: 100%; }
 body {
   background: #fff;
   color: #444;
-  font: 20px 'Open Sans', sans-serif, 'Microsoft Yahei', 'Microsoft Jhenghei';
-  font-family: 'Open Sans', sans-serif, 'Microsoft Yahei', 'Microsoft Jhenghei';
+  font: 20px 'Open Sans', 'Microsoft Yahei', 'Microsoft Jhenghei', sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -315,7 +313,7 @@ section#single-wrap {
   width: 100%;
   max-width: 780px;
   margin: 20px auto;
-  font-family: 'Lora', Georgia, serif, 'Microsoft Yahei';
+  font-family: 'Lora', Georgia, 'Microsoft Yahei', serif;
   background: #fff;
   z-index: 1;
 }
@@ -363,7 +361,7 @@ section#single-wrap .feat a.popup {
 section#single-wrap h1.page-title {
   font-size: 180%;
   line-height: 135%;
-  font-family: 'Open Sans', sans-serif, 'Microsoft Yahei';
+  font-family: 'Open Sans', 'Microsoft Yahei', sans-serif;
   text-align: center;
   margin: 0 0 60px;
   padding: 0 40px;
@@ -403,7 +401,7 @@ section#single-wrap p { line-height: 160%; }
 
 section#single-wrap blockquote {
   font-size: inherit;
-  font-family: 'Open Sans', sans-serif, 'Microsoft Yahei';
+  font-family: 'Open Sans', 'Microsoft Yahei', sans-serif;
   color: #333;
   border-left: 6px solid #39f;
   padding: 0 34px;
@@ -503,7 +501,7 @@ section#single-wrap img {
   position: absolute;
   color: #444;
   margin-top: -42px;
-  font-family: 'Open Sans', sans-serif, 'Microsoft Yahei';
+  font-family: 'Open Sans', 'Microsoft Yahei', sans-serif;
   background-color: #fbfbfb;
   border: 1px solid #eee;
   padding: 4px 10px; 
