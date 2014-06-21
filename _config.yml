@@ -1,10 +1,10 @@
-name: "EFZ1602"
-description: "Fluid, responsive blog theme for Jekyll"
+name: "Homework Center"
+description: "EFZ1602"
 
-author: "John Doge"
+author: "Kaicheng Yan"
 
 url: "http://efz1602.net"
-baseurl: ""
+baseurl: "http://efz1602.net"
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
