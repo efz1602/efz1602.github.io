@@ -4,7 +4,7 @@ title:  "灰小灰参考答案"
 date:   2014-07-05
 ---
 
-[点击这里下载打印版](/file/greygreykeys.pdf)。
+[点击这里下载打印版](/files/greygreykeys.pdf)。
 
 答案仅供参考。
 
