@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "中秋大礼包（修正版）"
+title:  "中秋大礼包"
 date:   2014-09-05
 ---
 
