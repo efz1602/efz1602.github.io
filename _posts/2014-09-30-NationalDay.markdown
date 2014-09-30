@@ -1,40 +1,156 @@
-﻿---
-layout: post
-title:  "国庆大礼包"
-date:   2014-09-30
----
+﻿
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <title>EFZ1602作业中心 - 华东师大二附中2016届2班</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta http-equiv="content-language" content="zh-cn" />
+      <meta name="description" content="Homework Center for EFZ1602">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link href="http://fonts.useso.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="http://efz1602.net/css/main.css" />
+      <link rel="stylesheet" type="text/css" href="http://efz1602.net/css/syntax.css" />
+      <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+  </head>
 
-##### 语文
-1. 完成《阿房宫赋》总复习卷一份，自行核对答案。
-2. 根据总复习大纲进行有效复习，合理安排复习时间。
-3. 练小灰。完成第9单元小灰，共3篇。请计时完成。
-4. 国庆后参与论文答辩的同学记得于10月5日前发送全文至鲁小易邮箱，此后评审小组成员尽可能浏览一下全文，提出1-2个问题。
- 
-##### 数学
-1. 《控江》第38,39,40,62,63,64,65及第六,十二章单元测试。
-2. 开学一并上交暑假作业。
- 
-##### 英语
-2. 两套灰卷卷+一套白卷卷。
-3. 背诵四套一模卷+红葵花15页。
- 
-##### 物理
-1. 两张讲义。
-2. 【小黄书】。
- 
-##### 化学
-1. 《同步精练》综合测试B卷。
-2. 三套试卷。
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
 
-##### 历史
-1. 《点击》后一章+第一单元全部    
-2. 复习第一册中世纪部分与第五册已学部分
+    <div id="off-canvas">
+      <div id="avatar">
+        <img src="http://efz1602.net/assets/img/avatar.jpg" alt="Profile Picture" title="wow, very face, such photograph, wow">
+      </div>
+      <div id="bio">
+          <h1>Hi, I'm EFZ1602.</h1>
+          <p>I'm working on this site, offering you guys these homework lists. </p>
+      </div>
+    </div>
+    
+    <header>
+      <div class="h-wrap">
+        <h1 class="title"><a href="http://efz1602.net" title="Back to Homepage">EFZ1602作业中心</a></h1>
+        <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
+      </div>
+    </header>
 
- 
-##### 生物
-1. 一张练习卷。
-  
-##### 某人说
-1. 首次试验（笑）有问题请联系double_attack@126.com
-2. 各位加油复习哟。
- 
+    <main>
+      <section id="single-wrap">
+  <article class="single-content" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="feat">
+      <h5 class="page-date">
+        <time datetime="2014-09-26T00:00:00+00:00" itemprop="datePublished">
+          26 September 2014
+        </time>
+      </h5>
+    </div>
+    <h1 class="page-title" itemprop="name headline">国庆试卷大礼包</h1>
+    <div itemprop="articleBody">
+      <h5>语文</h5>
+
+<ol>
+<li>完成《阿房宫赋》总复习卷一份，自行核对答案。</li>
+<li>根据总复习大纲进行有效复习，合理安排复习时间。</li>
+<li>练小灰。完成第9单元小灰，共3篇。请计时完成。</li>
+<li>国庆后参与论文答辩的同学记得于10月5日前发送全文至鲁小易邮箱，此后评审小组成员尽可能浏览一下全文，提出1-2个问题。</li>
+</ol>
+
+
+<h5>数学</h5>
+
+<ol>
+<li>数学解析 38、39、40、第六章、62、63、64、65、第十二章并与暑假作业本一同上交</li>
+<li>复习</li>
+</ol>
+
+
+<h5>英语</h5>
+
+<ol>
+<li>两套灰卷卷+一套白卷卷</li>
+<li>背15页红葵花</li>
+<li>复习。</li>
+</ol>
+
+
+<h5>物理</h5>
+
+<ol>
+<li>三张讲义（电场*1+气体*2）并校对答案。</li>
+<li>复习。</li>
+<li>刷小黄书。</li>
+</ol>
+
+
+<h5>化学</h5>
+
+<ol>
+<li>三套（六张）讲义（加答案）。</li>
+<li>《同步》综合B。</li>
+<li>复习</li>
+</ol>
+
+
+<h5>历史</h5>
+
+<ol>
+<li>《点击》后一章+第一单元全部。</li>
+<li>复习第一册中世纪部分与第五册已学部分。</li>
+</ol>
+
+
+    </div>
+    <div id="share" class="feat">
+      <script type="text/javascript">
+      (function(){
+      var p = {
+      url:location.href,
+      showcount:'0',/*是否显示分享总数,显示：'1'，不显示：'0' */
+      desc:'',/*默认分享理由(可选)*/
+      summary:'',/*分享摘要(可选)*/
+      title: '国庆试卷大礼包',/*分享标题(可选)*/
+      site:'EFZ1602作业中心',/*分享来源 如：腾讯网(可选)*/
+      pics:'', /*分享图片的路径(可选)*/
+      style:'203',
+      width:22,
+      height:22
+      };
+      var s = [];
+      for(var i in p){
+      s.push(i + '=' + encodeURIComponent(p[i]||''));
+      }
+      document.write(['<a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?',s.join('&'),'" target="_blank">分享</a>'].join(''));
+      })();
+      </script>
+      <script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
+    </div>
+    
+      <a rel="next" href="http://efz1602.net/2014/09/NationalDay.html" id="next">
+        <span class="nav-title nav-title-next">newer</span> &rarr;
+      </a>
+    
+    
+      <a rel="prev" href="http://efz1602.net/2014/09/WeekThree.html" id="prev">
+        &larr; <span class="nav-title nav-title-prev">older</span>
+      </a>
+    
+  </article>
+</section>
+
+    </main>
+
+    <footer>
+      <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; EFZ1602</small>
+    </footer>
+
+    <script src="http://efz1602.net/js/main.js"></script>
+    
+    
+
+  </body>
+</html>
