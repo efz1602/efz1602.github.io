@@ -1,10 +1,10 @@
-name: "EFZ1602作业中心"
-description: "华东师大二附中2016届2班"
+name: "Homework Center"
+description: "H.W. Center for EFZ1602"
 
-author: "EFZ1602"
+author: "Kyle"
 
-url: "http://efz1602.net"
-baseurl: "http://efz1602.net"
+url: "http://www.hwcenter.tk"
+baseurl: "http://www.hwcenter.tk"
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
