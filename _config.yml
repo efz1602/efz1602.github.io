@@ -1,7 +1,7 @@
-name: "Homework Center"
-description: "H.W. Center for EFZ1602"
+name: "作业中心"
+description: "中二班作业发布站"
 
-author: "Kyle"
+author: "严恺诚Kyle"
 
 url: "http://www.hwcenter.tk"
 baseurl: "http://www.hwcenter.tk"
