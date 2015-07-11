@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "暑假作业(更新中)"
+title: "暑假作业"
 date: 2015-07-01
 ---
 
