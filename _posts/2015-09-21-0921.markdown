@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "9月21日作业"
 date: 2015-09-21
