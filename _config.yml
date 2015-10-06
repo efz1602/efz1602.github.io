@@ -6,6 +6,6 @@ author: "严恺诚Kyle"
 url: "http://www.efz1602.tk"
 baseurl: "http://www.efz1602.tk"
 
-markdown: rdiscount
+markdown: kramdown
 permalink: :year/:month/:title.html
 pygments: true
