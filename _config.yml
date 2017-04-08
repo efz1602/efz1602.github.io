@@ -3,8 +3,8 @@ description: "小二班作业发布站"
 
 author: "严恺诚Kyle"
 
-url: "http://www.efz1602.com"
-baseurl: "http://www.efz1602.com"
+url: "http://efz1602.github.io"
+baseurl: "http://efz1602.github.io"
 
 markdown: kramdown
 permalink: :year/:month/:title.html
