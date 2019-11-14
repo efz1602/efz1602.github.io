@@ -16,12 +16,12 @@ layout: default
       {{ content }}
     </div>
     {% if page.next %}
-      <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
+      <a rel="next" href="{{ page.next.url | relative_url }}" id="next">
         <span class="nav-title nav-title-next">newer</span> &rarr;
       </a>
     {% endif %}
     {% if page.previous %}
-      <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" id="prev">
+      <a rel="prev" href="{{ page.previous.url | relative_url }}" id="prev">
         &larr; <span class="nav-title nav-title-prev">older</span>
       </a>
     {% endif %}

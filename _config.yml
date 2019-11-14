@@ -7,7 +7,6 @@ banner_title: "即将重制！"
 banner_text: "2020冬季，敬请期待。"
 
 # url: "https://efz1602.github.io"
-baseurl: "/"
 
 markdown: kramdown
 permalink: pretty
