@@ -3,11 +3,11 @@ description: "小二班作业发布站"
 
 author: "严恺诚Kyle"
 
-url: "https://efz1602.github.io"
-baseurl: "https://efz1602.github.io"
+# url: "https://efz1602.github.io"
+baseurl: "/"
 
 markdown: kramdown
-permalink: :year/:month/:title.html
+permalink: pretty
 kramdown:
   input: GFM
   syntax_highlighter: rouge
