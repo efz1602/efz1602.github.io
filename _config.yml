@@ -13,3 +13,6 @@ permalink: pretty
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
